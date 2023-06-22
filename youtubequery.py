@@ -1,3 +1,4 @@
+subprocess.check_call(["pip", "install", "-r", "requirements.txt"])
 from langchain.document_loaders import YoutubeLoader
 from langchain import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
